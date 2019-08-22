@@ -41,6 +41,11 @@ object pepita {
 			self.vola(8)
 		}
 	}
+	method entrena(){
+		self.vola(10)
+		self.come(alpiste)
+		self.vola(5)
+	}
 }
 
 object alpiste {
@@ -91,4 +96,10 @@ object canelones {
 	method energiaQueOtorga(){
 		return canelon
 	}
+}
+
+//Punto 3
+
+object roque {
+	
 }
