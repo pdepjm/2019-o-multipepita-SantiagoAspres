@@ -41,11 +41,6 @@ object pepita {
 			self.vola(8)
 		}
 	}
-	method entrena(){
-		self.vola(10)
-		self.come(alpiste)
-		self.vola(5)
-	}
 }
 
 object alpiste {
@@ -101,5 +96,15 @@ object canelones {
 //Punto 3
 
 object roque {
+	var entrenado
+	method elEntrenado(ave) {
+		entrenado = ave
+	}
 	
+	method entrena(){
+		entrenado.vola(10)
+		entrenado.come(alpiste)
+		entrenado.vola(5)
+		entrenado.haceLoQueQuieras()
+	}
 }
